@@ -20,7 +20,7 @@ def create
     end
   end
 
-	private
+private
   def picture_params
     params.require(:picture).permit(:artist, :title, :url)
   end
